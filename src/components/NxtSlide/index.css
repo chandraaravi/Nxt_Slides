@@ -1,0 +1,154 @@
+.nav-bar {
+  background-color: #dbeafe;
+  display: flex;
+  align-items: center;
+  padding: 16px;
+}
+
+.slides-logo {
+  margin-right: 25px;
+  width: 60px;
+  height: 60px;
+}
+
+.nav-bar-heading {
+  font-family: 'Bree Serif';
+  margin: 0;
+  font-size: 35px;
+}
+
+/* ----------------- */
+
+.slides-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.slides-list-item {
+  display: flex;
+  padding: 15px 25px;
+  padding-left: 32px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.index-number {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.slide-card {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-slides/nxt-slides-bg.png ');
+  background-size: cover;
+  background-color: #ffffff;
+  border-radius: 8px;
+  width: 190px;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 1px 5px 0px #bfbfbf;
+}
+
+.card-heading {
+  font-family: 'Bree Serif';
+  font-size: 22px;
+  color: #0967d2;
+  margin: 0;
+}
+
+.card-description {
+  font-family: 'Bree Serif';
+  font-size: 18px;
+  color: #334155;
+  text-align: center;
+  margin: 0;
+}
+
+/* ----------------- */
+
+.input-box {
+  padding: 18px;
+}
+
+.display-heading {
+  color: #0967d2;
+  font-family: 'Bree Serif';
+  font-size: 60px;
+  margin-bottom: 30px;
+  margin: 0;
+}
+
+.display-description {
+  color: #334155;
+  font-family: 'Bree Serif';
+  font-size: 38px;
+  text-align: center;
+  margin: 0;
+}
+
+.display-slide-container {
+  background-color: #ffffff;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-slides/nxt-slides-bg.png ');
+  background-size: cover;
+  height: 65vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+
+/* ----------------- */
+
+.detail-container {
+  background-color: #f3f3f3;
+  padding-top: 15px;
+  height: 85vh;
+}
+
+.new-btn {
+  display: flex;
+  align-items: center;
+  background-color: #dbeafe;
+  border-radius: 7px;
+  border: 0;
+  padding: 8px 20px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.icon-symbol {
+  width: 15px;
+  height: 15px;
+  margin-right: 7px;
+}
+
+.text {
+  font-family: 'Bree Serif';
+  font-size: 18px;
+  margin: 0;
+}
+
+.slides-content-container {
+  display: flex;
+  height: 75vh;
+}
+
+.slides-list {
+  overflow-x: hidden;
+  overflow-y: auto;
+  width: 60vh;
+}
+.display-slide {
+  padding: 30px 20px;
+  width: 100%;
+}
